@@ -11,7 +11,7 @@ class FactorialView extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Factorial Calculator'),
+        title: const Text('Dipesh Class Assigmnent'),
         centerTitle: true,
       ),
       body: Padding(
@@ -45,7 +45,8 @@ class FactorialView extends StatelessWidget {
                 }
                 return Text(
                   'Factorial: $state',
-                  style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  style: const TextStyle(
+                      fontSize: 20, fontWeight: FontWeight.bold),
                 );
               },
             ),
